@@ -28,7 +28,10 @@ public class Details {
 		
 		WebElement textPass = driver.findElement(By.id("pass"));
 		textPass.sendKeys("somi123");
+	System.out.println("welcome");
+
 	System.out.println(textPass);
+
 		
 	}
 
